@@ -19,7 +19,7 @@ nav {
     justify-content: space-around;
 }
 
-nav  ul {
+nav ul {
     display: flex;
     align-items: center;
     gap: 50px;
@@ -44,6 +44,7 @@ nav ul li a:hover {
     gap: 15px;
 
 }
+
 .redes-sociais img {
     width: 22px;
     cursor: pointer;
@@ -51,17 +52,18 @@ nav ul li a:hover {
 
 /* main */
 
-.imgfundo img{
+.imgfundo img {
     width: 100%;
 }
 
 
 
 /* SECTION 1 */
-.img-esquerda img{
+.img-esquerda img {
     width: 300px;
 
 }
+
 .container-section-1 {
     gap: 50px;
     justify-content: center;
@@ -78,18 +80,18 @@ nav ul li a:hover {
 
 .quality-redes {
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 .quality-redes h3 {
     color: red;
     font-size: 25px;
     margin-right: 30px;
-   
+
 }
 
 .quality-redes img {
-    
+
     display: flex;
     align-items: center;
     margin-right: 10px;
@@ -99,14 +101,14 @@ nav ul li a:hover {
 
 .texto-lado h6 {
     color: gray;
-   padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
-.texto-lado p { 
+.texto-lado p {
     font-size: 20px;
 }
 
-/* SECTION 2 */ 
+/* SECTION 2 */
 section {
     margin-bottom: 100px;
 }
@@ -115,7 +117,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 100px;
-    
+
 }
 
 .cards h1 {
@@ -124,7 +126,7 @@ section {
     width: 290px;
     text-align: center;
 
-    
+
 }
 
 .cards {
@@ -134,10 +136,127 @@ section {
 
 
 .cards img {
-    padding-bottom:  30px;
+    padding-bottom: 30px;
     width: 120px;
 }
 
 .cards p {
     padding-top: 20px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.galeria img {
+    width: 300px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.galeria img:hover {
+    opacity: 0.9;
+}
+
+
+
+
+
+
+.letras {
+    margin-left: 340px;
+    padding-bottom: 50px;
+}
+
+.letras h1 {
+    color: red;
+}
+
+
+.galeria2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.galeria2 img {
+    transition: 0.3s;
+    cursor: pointer;
+    width: 210px;
+}
+
+.galeria2 img:hover {
+    opacity: 0.9;
+}
+
+.borda-meio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    border-bottom: 3px solid red;
+}
+
+.img-esquerdaa img{
+    width: 600px;
+}
+.container-section-5 {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    justify-content: center;
+}
+
+.letras-direita {
+    text-align: center;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: red;
+    border-radius: 50px;
+    padding: 7px 50px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+button:hover {
+    background-color: rgb(128, 20, 20);
+    color: black;
+}
+
+
+
+.letras-direita h1{
+    font-size: 40px;
+    padding-bottom: 15px;
+    color: red;
+}
+
+.letras-direita h2 {
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+
+.letras-direita h3 {
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container-footer h1 {
+    font-size: 15px;
 }
