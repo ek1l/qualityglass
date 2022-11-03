@@ -82,14 +82,14 @@
         padding-top: 20px;
     }
     .img-esquerda img {
-        width: 300px;
+        width: 300px !important;
     }
 }
 
 
 @media (max-width: 500px)  {
     .img-esquerda img {
-        width: 200px;
+        width: 200px !important;
     }
 }
 
