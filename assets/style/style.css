@@ -216,14 +216,6 @@ section {
     padding-top: 20px;
 }
 
-.galeria {
-    gap: 10px;
-    display: flex;
-    justify-content: center;
-     margin: 0 auto;
-     flex-wrap: wrap;
-    
-}
 
 .container-section-3 {
     display: flex;
@@ -318,7 +310,6 @@ button {
     padding: 7px 50px;
     cursor: pointer;
     transition: 0.3s;
-
 }
 
 button:hover {
