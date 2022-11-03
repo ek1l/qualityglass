@@ -62,7 +62,8 @@ header {
 
 nav {
     background-color: white;
-    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -188,9 +189,12 @@ section {
 .container-section-2 {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 100px;
 
 }
+
+
 
 .cards h1 {
     color: #972c36;
@@ -204,6 +208,15 @@ section {
 .cards {
     text-align: center;
 }
+
+.cards2 {
+    margin-bottom:30px ;
+}
+
+.cards3 {
+    height: 275px;
+}
+
 
 
 
